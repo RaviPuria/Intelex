@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packaging Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003d80;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('hero-image.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .product-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            width: 30%;
+            text-align: left;
+        }
+        footer {
+            background-color: #002a5c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+        .carousel img {
+            width: 100%;
+            animation: slide 10s infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Packaging Solutions</h1>
+        <p>Your Partner in Corrugated Boxes, Stiffeners, and Printing</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Custom Packaging Solutions</h1>
+        <p>Discover high-quality, customized solutions for all your packaging needs. Let's build something amazing together!</p>
+    </div>
+
+    <div class="carousel">
+        <img src="product1.jpg" alt="Product 1">
+        <img src="product2.jpg" alt="Product 2">
+        <img src="product3.jpg" alt="Product 3">
+    </div>
+
+    <section id="products" class="section">
+        <h2>Our Products</h2>
+        <div class="product-gallery">
+            <div class="product">
+                <h3>Corrugated Boxes</h3>
+                <p>Durable, versatile, and eco-friendly packaging for every industry. Available in a variety of sizes and designs to suit your needs.</p>
+            </div>
+            <div class="product">
+                <h3>Stiffeners</h3>
+                <p>Enhance the stability and safety of your packages with our custom-made stiffeners. Perfect for fragile or heavy items.</p>
+            </div>
+            <div class="product">
+                <h3>Printing Solutions</h3>
+                <p>Make your brand stand out with our state-of-the-art printing solutions. From logos to product details, we bring your vision to life.</p>
+            </div>
+            <div class="product">
+                <h3>Custom Inserts</h3>
+                <p>Optimize your packaging with inserts designed to protect and display your products effectively.</p>
+            </div>
+            <div class="product">
+                <h3>Eco-Friendly Packaging</h3>
+                <p>Sustainable and biodegradable packaging solutions that align with your environmental goals.</p>
+            </div>
+            <div class="product">
+                <h3>Retail Packaging</h3>
+                <p>Attractive and functional retail packaging to enhance your product's shelf appeal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <p>We offer comprehensive packaging solutions, including custom design services, bulk manufacturing, and reliable delivery options. Our team ensures every detail meets your expectations.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Founded in [Year], Packaging Solutions has been a trusted provider of innovative and reliable packaging products. Our commitment to quality and customer satisfaction drives us to deliver exceptional results every time.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need a quote? We’d love to hear from you! Reach out through the form below or contact us directly at:</p>
+        <p><strong>Email:</strong> info@packagingsolutions.com<br>
+           <strong>Phone:</strong> +123 456 7890</p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required><br><br>
+            <input type="email" name="email" placeholder="Your Email" required><br><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Packaging Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
